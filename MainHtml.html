@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
+
+        <link href="css/MainCss.css" rel="stylesheet" type="text/css">
+    </head>
+    
+    <body>
+        <div>
+            <div class="main">
+                <div class="main-block1">
+                    <img class="image-circle" src="picture/red.png" width="20px" height="20px" >
+                    <img class="image-circle" src="picture/yellow.png" width="20px" height="20px" >
+                    <img class="image-circle" style="margin-right: 115px;" src="picture/green.png" width="20px" height="20px" >
+                    
+                    <div> <!--如果要讓格子變大可以創class改，或直接刪除div-->
+                        <button id="button1" class="main-button" ><strong>活動資訊</strong></button>
+                        <button id="button2" class="main-button" ><strong>關於我們</strong></button>
+                        <button id="button3" class="main-button" style="margin-right: 20px;" ><strong>聯絡資訊</strong></button>
+                    </div>
+
+                    <input class="search-bar" placeholder="Search" style="margin-right: 6px;">
+                    <script type="text/javascript" src="search-bar.js"></script>
+
+                    <div class="tooltip-button">
+                        <button class = "button-info" style = "margin-right: 1px;" >
+                            <img class="image-circle-button" src="picture/info.png" width="25px" height="25px" alt="information" >
+                            <span class="tooltip-text">新莊程研社</span>
+                        </button>
+                    </div>
+                    
+                    <button class="button-info">
+                        <img class="image-circle" src="picture/list.png" width="25px" height="27px" >
+                    </button>
+                </div>
+                <br/>
+                <div class="main-block2">
+
+                    <div class="block2-left-box" >
+                        <div class="block2-left-box-div">
+                            <button class="block2-left-box-button">button-side1</button>
+                            <button class="block2-left-box-button">button-side2</button>
+                            <button class="block2-left-box-button">button-side3</button>
+                            <button class="block2-left-box-button">button-side4</button>
+                        </div>
+                    </div>
+
+                    <div class="main-block3">
+                        <div class="block3-right-box-monitor">
+                            <div id="content"></div>
+                            <script type="text/javascript" src="js/MainJs.js"></script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </body>
+</html>
