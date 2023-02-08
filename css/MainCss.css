@@ -67,7 +67,7 @@ body {
 }
 
 .search-bar {
-    background-image: url(circle/search.png);
+    background-image: url(../picture/search.png);
     background-size: 25px;
     background-position: left 4px center;
     background-repeat: no-repeat;
