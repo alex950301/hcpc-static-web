@@ -32,7 +32,7 @@ button2.addEventListener("click", function() {
               <p style="color: gray; font-family: Arial; margin-left: 8px; margin-top: 0px; margin-bottom: 18px;">
                 hcpc_7th
               </p>
-              <a href="https://www.instagram.com/hcpc_7th?utm_source=qr">
+              <a href="https://www.instagram.com/hcpc_7th?utm_source=qr" target="_blank" >
                 <button class="aboutUs-button"><strong>LINK</strong></button>
               </a>
           </div>
@@ -45,7 +45,7 @@ button2.addEventListener("click", function() {
               <p style="color: gray; font-family: Arial; margin-left: 8px; margin-top: 0px; margin-bottom: 18px;">
                 HCPC_7th
               </p>
-              <a href="https://www.youtube.com/channel/UC9hv97XnCJfMWuX94X2VefQ">
+              <a href="https://www.youtube.com/channel/UC9hv97XnCJfMWuX94X2VefQ" target="_blank" >
                 <button class="aboutUs-button"><strong>LINK</strong></button>
               </a>
             </div>
@@ -58,7 +58,7 @@ button2.addEventListener("click", function() {
               <p style="color: gray; font-family: Arial; margin-left: 8px; margin-top: 0px; margin-bottom: 18px;">
                   新莊程研7th
               </p>
-              <a href="https://discord.gg/SSatzTay">
+              <a href="https://discord.gg/SSatzTay" target="_blank" >
                 <button class="aboutUs-button"><strong>LINK</strong></button>
               </a>
           </div>
