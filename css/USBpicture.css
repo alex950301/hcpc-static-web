@@ -1,0 +1,41 @@
+.card {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 400px;
+    height: 400px;
+    perspective: 800px; /* 定義觀看距離 */
+    
+}
+.front, .back {
+    border-radius: 5px;
+    position: absolute;
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden; /* 隱藏反面內容 */
+    transition: transform 0.6s ease; /* 定義翻轉動畫 */
+}
+
+.front {
+  transform: rotateY(0deg); /* 正面 */
+}
+
+.back {
+  transform: rotateY(180deg); /* 背面 */
+}
+
+.card:hover .front {
+  transform: rotateY(180deg); /* 滑鼠移入翻轉到背面 */
+}
+
+.card:hover .back {
+  transform: rotateY(0deg); /* 滑鼠移入翻轉到正面 */
+}
+
+.back p {
+  color: black;
+  text-align: center;
+}
