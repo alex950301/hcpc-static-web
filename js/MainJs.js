@@ -8,7 +8,25 @@ const button5 = document.querySelector("#button5");
 const button6 = document.querySelector("#button6");
 const button7 = document.querySelector("#button7");
 
+/*content.addEventListener("click", function(event) {
+  content.addEventListener("click", function(event) {
+    if (event.target.matches("#button1, #button2, #button3")) {
+      button1.style.backgroundColor = "";
+      button2.style.backgroundColor = "";
+      button3.style.backgroundColor = "";
 
+      event.target.style.backgroundColor = "yellow";
+    }
+
+    if (event.target.matches("#button4, #button5, #button6, #button7")) {
+      button4.style.backgroundColor = "";
+      button5.style.backgroundColor = "";
+      button6.style.backgroundColor = "";
+      button7.style.backgroundColor = "";
+
+      event.target.style.backgroundColor = "blue";
+    }
+});*/
 window.onload = function() {
   content.innerHTML = `
   <div class="block3-right-box-monitor">
@@ -33,7 +51,7 @@ button1.addEventListener("click", function() {
         <img src="picture/usb.jpg" width= 450px;/>
       </div>
       <div class="back">
-        <p>
+        <p >
           獎項 大獎_USB×1
           </br/>
           抽獎辦法 訂閱YouTube，以及在貼文下方留有@一位朋友的留言(是否要@越多人中獎機率越高?)
@@ -66,7 +84,7 @@ button2.addEventListener("click", function() {
           <div class="aboutUs-box">
               <img class="aboutUs-picture" src="picture/ig.jfif" />
               <p class="aboutUs-name">Instagram</p>
-              <p style="color: gray; font-family: Arial; margin-left: 8px; margin-top: 0px; margin-bottom: 18px;">
+              <p class="aboutUs-box-text">
                 hcpc_7th
               </p>
               <a href="https://www.instagram.com/hcpc_7th?utm_source=qr" target="_blank">
@@ -79,7 +97,7 @@ button2.addEventListener("click", function() {
           <div class="aboutUs-box">
               <img class="aboutUs-picture" src="picture/yt.jfif" />
               <p class="aboutUs-name">Youtube</p>
-              <p style="color: gray; font-family: Arial; margin-left: 8px; margin-top: 0px; margin-bottom: 18px;">
+              <p class="aboutUs-box-text">
                 HCPC_7th
               </p>
               <a href="https://www.youtube.com/channel/UC9hv97XnCJfMWuX94X2VefQ" target="_blank">
@@ -92,7 +110,7 @@ button2.addEventListener("click", function() {
           <div class="aboutUs-box">
               <img class="aboutUs-picture" src="picture/dc.png" />
               <p class="aboutUs-name">Discord</p>
-              <p style="color: gray; font-family: Arial; margin-left: 8px; margin-top: 0px; margin-bottom: 18px;">
+              <p class="aboutUs-box-text">
                   新莊程研7th
               </p>
               <a href="https://discord.gg/SSatzTay" target="_blank">
@@ -113,18 +131,17 @@ button3.addEventListener("click", function() {
       <h1>------------ 聯絡我們 ------------</h2>
 
       <div class="contact-info">
-
-        <div class="contact-div-shadow" style="margin-bottom: 5px;">
-          <img class="contact-picture" src="picture/add-icon.png" style="margin-left: 2px;"/>
-          <p class="contact-bar">請聯絡我們的IG : hcpc_7th </p>
+        <div class="contact-div-shadow" style="margin-bottom: 5px; border: none; color: gray;">
+          <img class="contact-picture" src="picture/add-icon.png"/>
+          <p class="contact-bar" >請聯絡我們的IG : hcpc_7th </p>
         </div>
-        <div class="contact-div-shadow" style="margin-bottom: 5px;">
-          <img class="contact-picture" src="picture/email.png"/ width: 25px;>
-          <p class="contact-bar">我們的電子郵件 : hcshprogram07@gmail.com</p>
+        <div class="contact-div-shadow" style="margin-bottom: 5px; border: none; color: gray;">
+          <img class="contact-picture" src="picture/email.png"/>
+          <p class="contact-bar" >我們的電子郵件 : hcshprogram07@gmail.com</p>
         </div>
-        <div class="contact-div-shadow" style="margin-bottom: 5px;">
+        <div class="contact-div-shadow" style="margin-bottom: 5px; border: none; color: gray;">
           <img class="contact-picture" src="picture/home.png"/>
-          <p class="contact-bar">我們的地址 : 新北市新莊區242中平路135號</p>
+          <p class="contact-bar" >我們的地址 : 新北市新莊區242中平路135號</p>
         </div>
 
       </div>
@@ -133,15 +150,36 @@ button3.addEventListener("click", function() {
 });
 
 
-
-
 button4.addEventListener("click", function() {
   content.innerHTML = `
-    <div class="block3-right-box-monitor" style="background-color: red" >
-      <p>Button 1 was clicked</p>
+  <div>
+    <div>
+      <div class="method">
+        <div>
+          <p>Button 1 was clicked</p>
+          <p>Button 1 was clicked</p>
+          <p>Button 1 was clicked</p>
+          <p>Button 1 was clicked</p>
+          <p>Button 1 was clicked</p>
+          <p>Button 1 was clicked</p>
+          <p>Button 1 was clicked</p>
+          <p>Button 1 was clicked</p>
+          <p>Button 1 was clicked</p>
+          <p>Button 1 was clicked</p>
+          <p>Button 1 was clicked</p>
+          <p>Button 1 was clicked</p>
+          <p>Button 1 was clicked</p>
+          <p>Button 1 was clicked</p>
+          <p>Button 1 was clicked</p>
+          <p>Button 1 was clicked</p>
+          <p>Button 1 was clicked</p>
+        </div>
+      </div>
     </div>
+  </div>
   `;
 });
+
 button5.addEventListener("click", function() {
   content.innerHTML = `
     <div class="block3-right-box-monitor" style="background-color: yellow" >
@@ -149,6 +187,7 @@ button5.addEventListener("click", function() {
     </div>
   `;
 });
+
 button6.addEventListener("click", function() {
   content.innerHTML = `
     <div class="block3-right-box-monitor" style="background-color: green" >
@@ -156,10 +195,21 @@ button6.addEventListener("click", function() {
     </div>
   `;
 });
+
 button7.addEventListener("click", function() {
   content.innerHTML = `
-    <div class="block3-right-box-monitor" style="background-color: blue" >
-      <p>Button 1 was clicked</p>
+    <div class="webinfo">
+      <div class="webinfo-image">
+        <img src="picture/css.png" alt="css-icon" width="180px">
+        <img src="picture/html.png" alt="html-icon" width="180px">
+        <img src="picture/js.png" alt="js-icon" width="180px">
+      </div>
+      <div class="webinfo-image-github" style="margin-left: 20px">
+        <img src="picture/github.png" alt="css-icon" width="180px">
+        <p class="webinfo-github">
+          Power by Github
+        </p>
+      </div>
     </div>
   `;
 });
