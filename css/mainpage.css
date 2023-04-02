@@ -1,0 +1,119 @@
+.Main{
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.method-Main {
+    border-radius: 2px;
+    width: 520px;
+    display: grid;
+    grid-template-rows: 1fr 5fr ;
+}
+
+.method-Main-icon{
+    background-color: #151728;
+    border-radius: 4px;
+    margin: 3px ;
+    display:inline-flex;
+}
+
+.method-Main-info{  /*biggest   等等裡面要maring: 3px*/
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    align-items: flex-start;
+    margin: 3px;
+    gap: 10px;
+}
+
+.method-Main-info-div {
+    background-color: #151728;
+    border-radius: 4px;
+    /* font-family: 'Alkatra', cursive; */
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.method-Main-info-div2 {
+    background-color: #151728;
+    font-family: 'Alkatra', cursive;
+    border-radius: 4px;
+    margin-left: 0px;
+    margin-right: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width: 100%;
+    height: 100%;
+}
+
+.method-Main-info-left1 {
+    display: flex;
+    margin: 5px;
+    align-items: center;
+    justify-content: center;
+    font-size: 5px;
+    color: white ;
+    margin-top: 5px ;
+    margin-bottom: 5px;
+}
+
+.method-Main-info-right1 {
+    display: flex;
+    margin: 7px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 5px;
+    color: white;
+    margin-top: 6px;
+}
+
+.method-Main-info-left-div {
+    /*background-color:red;*/
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.method-justify {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 3px;
+}
+
+.method-Main-info-right-div {
+    /*background-color:blue;*/
+    display: flex;
+    align-items: center;
+}
+
+.method-Main-info-div-text {
+    display: block;
+    margin: 5px;
+}
+
+.method-Main-info-div-text-intro {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.method-Main-info-div-text-intro-style {
+    color: gray; 
+    margin: 0px;
+    font-size: 5px;
+    font-family: Montserrat;
+}
+
+.method-Main-info-div2 {
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    font-family:  'Alkatra', cursive;
+    letter-spacing: 3px;
+}

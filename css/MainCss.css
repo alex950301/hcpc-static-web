@@ -1,18 +1,23 @@
 body {
-    /* background-image: url("circle/sky.gif"); */
-    margin: 0;
+    margin-top: 30px;
     height: 100vh;
     display: grid;
-    place-items: center;
+    overflow: hidden;
+    align-items: center;
+    justify-content: center;
 }
-  
+
+html{
+    transform: scale(1.1);
+}
+
 .main {
     display: grid;
     width: 800px;
     height: 500px;
     grid-template-rows: 55px 5px 445px;
     border-radius: 10px;
-    margin-top: 90px;
+    margin-top: 0px;
 }
   
 .main-block1 {
@@ -60,14 +65,15 @@ body {
 .block2-left-box-button {
     background-color: #353340;
     color: white;
-    border-radius: 5px ;
+    border-radius: 5px;
     border: none;
     margin: 10px;
     display: block;
     width: 170px;
     height: 35px;
-    font-size: larger ;
+    font-size: larger;
     transition: background-color 1s;
+    letter-spacing: 7px;
 }
 
 .block2-left-box-button:hover , .block2-left-box-button:focus{
@@ -82,7 +88,6 @@ body {
 .image-circle-button {
     margin-left: 0px;
     background-color: rgba(18, 21, 39, 0.86);
-    opacity: 0.95;
 }
 
 .search-bar {
