@@ -3,26 +3,23 @@
     <head>
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.googleapis.com">
-        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;400&display=swap" rel="stylesheet">
-
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-
+        <link href="https://fonts.googleapis.com/css2?family=Alkatra&family=Noto+Sans+TC:wght@100;400&display=swap" rel="stylesheet">
 
         <link href="css/USBpicture.css" rel="stylesheet" type="text/css">
         <link href="css/MainCss.css" rel="stylesheet" type="text/css">
-        
+        <link href="css/mainpage.css" rel="stylesheet" type="text/css">
+        <link href="css/popcat.css" rel="stylesheet" type="text/css">
     </head>
     
     <body id="bg">
         <div>
             <div class="main">
                 <div class="main-block1">
-                    <img class="image-circle" src="picture/red.png" width="20px" height="20px" >
-                    <img class="image-circle" src="picture/yellow.png" width="20px" height="20px" >
-                    <img class="image-circle" style="margin-right: 115px;" src="picture/green.png" width="20px" height="20px" >
+                    <img class="image-circle" src="picture/red.png" width="20px" height="20px" alt="red-circle" >
+                    <img class="image-circle" src="picture/yellow.png" width="20px" height="20px" alt="yelow-circle">
+                    <img class="image-circle" style="margin-right: 115px;" src="picture/green.png" width="20px" height="20px" alt="green-circle" >
                     
                     <div> <!--如果要讓格子變大可以創class改，或直接刪除div-->
                         <button id="button1" class="main-button" ><strong>活動資訊</strong></button>
@@ -41,7 +38,7 @@
                     </div>
                     
                     <button class="button-info">
-                        <img class="image-circle" src="picture/list.png" width="25px" height="27px" >
+                        <img class="image-circle" src="picture/list.png" width="25px" height="27px" alt="list-icon">
                     </button>
                 </div>
                 <br/>
@@ -53,10 +50,17 @@
                                 <!--<p style="display: flex;align-items: flex-end;margin: 0px;">Dashboard</p>-->
                             </div>
                             <button id="button4" class="block2-left-box-button">首頁</button>
-                            <button id="button5" class="block2-left-box-button">button5</button>
-                            <button id="button6" class="block2-left-box-button">button6</button>
-                            <button id="button7" class="block2-left-box-button">網站資訊</button>
-                        </div>
+                            <button id="button5" class="block2-left-box-button">抽獎活動</button>
+                            <button id="button6" class="block2-left-box-button">網站資訊</button>
+                            
+                            <div class="popcat-div">
+                                <img id="popcat" src="picture/close.png" alt="popcat" class="popcat">
+                                <button id="button7" class="block2-left-box-button">POP</button>
+                            </div>
+                            <script type="text/javascript" src="js/popcat.js"></script>
+
+                            <!--<button id="button7" class="block2-left-box-button">button7</button>-->
+                        </div> 
                     </div>
 
                     <div class="main-block3">
