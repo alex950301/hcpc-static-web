@@ -7,6 +7,7 @@ body {
     justify-content: center;
 }
 
+
 html{
     transform: scale(1.1);
 }
@@ -78,7 +79,8 @@ html{
 
 .block2-left-box-button:hover , .block2-left-box-button:focus{
     background-color: aqua;
-    color: white;
+    box-shadow: 0 0 20px #5dce5d;
+    color: #ffffff;
 }
 
 .image-circle {
@@ -88,6 +90,7 @@ html{
 .image-circle-button {
     margin-left: 0px;
     background-color: rgba(18, 21, 39, 0.86);
+    filter: none;
 }
 
 .search-bar {
@@ -96,14 +99,15 @@ html{
     background-size: 25px;
     background-position: left 4px center;
     background-repeat: no-repeat;
-    outline: none;
-    width: 200px;
+    /* outline: none; */
+    width: 195px;
     border: none;
-    margin-top: 12px;
+    margin-top: 10px;
     margin-bottom: 12px;
     height: 30px;
     border-radius: 5px;
     padding-left: 30px;
+    filter: none !important;
 }
 
 .main-button {
@@ -113,7 +117,7 @@ html{
     border: solid white 2px;
     border-radius: 1px;
     font-size: 17px;
-    margin-right: 10px;
+    margin-right: 7px;
     height: 92%;
     width: 85px;
     transition: color 1s , background-color 1s;
@@ -210,12 +214,12 @@ html{
     background-color: #a8a8a8;
     border-radius: 5px;
     width: 100%;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 0 10px rgba(221, 218, 39, 0.7);
 }
 
 .aboutUs-box:hover {
-    box-shadow: 0 0 10px rgba(57, 200, 219, 100);
-    color: rgba(57, 200, 219, 10);
+    box-shadow: 0 0 20px rgba(57, 200, 219, 1);
+    color: rgba(57, 200, 219, 0.9);
 }
 
 .aboutUs-picture {
@@ -229,7 +233,7 @@ html{
 
 .aboutUs-name {
     /*words*/
-    color: black ;
+    color: black;
     font-family: Montserrat;
     margin-top: 5px;
     margin-bottom: 3px;
@@ -305,7 +309,7 @@ html{
     display: grid;
 }
 
-.contact-div-shadow {
+.contact-div-shadow-real {
   display: flex;
   align-items: center;
   border-radius: 5px;
@@ -313,6 +317,55 @@ html{
   background-repeat: no-repeat;
   background-size: 100% 0%;
   transition: color 0.5s , background-size 0.5s ease;
+}
+
+
+.contact-div-shadow {
+    display: flex;
+    align-items: center;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    border: 2px solid transparent;
+}
+  
+.contact-div-shadow:hover{
+    animation: glowing-border 1.5s linear infinite ; /*spin 1s linear infinite*/
+}
+
+@keyframes spin {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+}
+
+@keyframes glowing-border {
+    0% {
+      border-color: #F15BB5; /*#90FCF9*/
+      box-shadow: 0 0 10px #F15BB5;
+    }
+    20% {
+      border-color: #9B5DE5; /*63B4D1*/
+      box-shadow: 0 0 10px #9B5DE5;
+    }
+    40% {
+      border-color: #00BBF9;/*#7699D4*/
+      box-shadow: 0 0 10px #00BBF9;
+    }
+    60% {
+      border-color: #7FED8A; /*#9448BC*/
+      box-shadow: 0 0 10px #7FED8A;
+    }
+    80% {
+      border-color: #FEE440; /*rgb(133, 21, 177)*/
+      box-shadow: 0 0 10px #FEE440;
+    }
+    100% {
+      border-color: #F15BB5; /*#2EC0F9*/
+      box-shadow: 0 0 10px #F15BB5;
+    }
 }
 
 .contact-div-shadow:hover {
@@ -351,10 +404,6 @@ html{
     letter-spacing: 5px;
 }
 
-.method {
-    color: white;
-    width: 550px;
-    height: 380px;
-    overflow-x: hidden;
-    overflow-y: scroll;
+.pop-button {
+    border-radius: 5px;
 }

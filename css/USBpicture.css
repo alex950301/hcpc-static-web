@@ -2,10 +2,9 @@
     position: relative;
     display: flex;
     align-items: center;
-    width: 400px;
-    height: 400px;
+    width: 450px;
+    height: 300px;
     perspective: 800px; /* 定義觀看距離 */
-    
 }
 .front, .back {
     border-radius: 5px;
@@ -24,7 +23,7 @@
 }
 
 .back {
-  transform: rotateY(180deg); /* 背面 */
+  transform: rotateY(-180deg); /* 背面 */
 }
 
 .card:hover .front {

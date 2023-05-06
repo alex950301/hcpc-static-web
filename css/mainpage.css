@@ -1,13 +1,12 @@
 .Main{
     border-radius: 50%;
-    margin-right: 5px;
 }
 
 .method-Main {
     border-radius: 2px;
     width: 520px;
     display: grid;
-    grid-template-rows: 1fr 5fr ;
+    grid-template-rows: 75px auto;
 }
 
 .method-Main-icon{
@@ -15,6 +14,7 @@
     border-radius: 4px;
     margin: 3px;
     display:inline-flex;
+    align-items: center;
 }
 
 .method-Main-info{  /*biggest   等等裡面要maring: 3px*/
@@ -28,7 +28,6 @@
 .method-Main-info-div {
     background-color: #151728;
     border-radius: 4px;
-    /* font-family: 'Alkatra', cursive; */
     margin-left: 0px;
     margin-right: 0px;
     margin-top: 5px;
@@ -61,18 +60,19 @@
 }
 
 .method-Main-info-right1 {
+    background-color: #2e2e42;
+    border-radius: 5px;
+    text-align: justify;
     display: flex;
-    margin: 7px;
+    margin: 5px;
     align-items: center;
     justify-content: center;
-    text-align: center;
     font-size: 5px;
     color: white;
     margin-top: 6px;
 }
 
 .method-Main-info-left-div {
-    /*background-color:red;*/
     display: flex;
     align-items: center;
     justify-content: flex-start;
@@ -87,7 +87,6 @@
 }
 
 .method-Main-info-right-div {
-    /*background-color:blue;*/
     display: flex;
     align-items: center;
 }
@@ -128,14 +127,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 1px;
-    width: 70px;
+    width: 80px;
     height: 25px;
     font-size: 10px;
     margin-right: 15px;
     border-radius: 15px;
-
+    cursor: pointer;
 }
 
 .status-style:hover {
@@ -146,7 +144,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     letter-spacing: 1px;
     width: 70px;
     height: 25px;
@@ -154,12 +151,11 @@
     background-color: #2e2e40;
     margin-right: 15px;
     border-radius: 15px;
-
+    cursor: pointer;
 }
 
 .status-text {
     font-size: 10px;
-    font-family: Arial, Helvetica, sans-serif;
     color: gray;
     letter-spacing: 0px;
     margin-left: 10px;
@@ -178,12 +174,43 @@
 }
 
 .share-button {
-    background-color: #1b86f9;
+    background-color: #6d20a0;
     border: none;
     color: #fff;
     border-radius: 4px;
     padding: 8px 16px;
-    margin-left: auto;
+    margin-left: 250px;
+    margin-bottom: 10px;
+    margin-right: 5px;
     box-shadow: 0 0 20px #1b86f9;
     cursor: pointer;
+    animation: flashing-border 4s infinite;
+}
+
+@keyframes flashing-border {
+    0% {
+        box-shadow: 0 0 20px #6d20a0;
+      }
+      50% {
+        box-shadow: none;
+      }
+      100% {
+        box-shadow: 0 0 20px #6d20a0;
+      }
+}
+
+.main-page-title {
+    font-family: consolas;
+    vertical-align: middle;
+    text-align: center;
+    line-height: 2;
+    margin: 5px;
+}
+
+.method-Main-justify {
+    background-color: #2e2e40;
+    border-radius: 10px;
+    display: flex;
+    margin:10px;
+    gap: 6px;
 }
