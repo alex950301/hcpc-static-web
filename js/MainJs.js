@@ -6,129 +6,131 @@ const button3 = document.querySelector("#button3");
 const button4 = document.querySelector("#button4");
 const button5 = document.querySelector("#button5");
 const button6 = document.querySelector("#button6");
-const button7 = document.querySelector("#button7");
 
-/*content.addEventListener("click", function(event) {
-  content.addEventListener("click", function(event) {
-    if (event.target.matches("#button1, #button2, #button3")) {
-      button1.style.backgroundColor = "";
-      button2.style.backgroundColor = "";
-      button3.style.backgroundColor = "";
-
-      event.target.style.backgroundColor = "yellow";
-    }
-
-    if (event.target.matches("#button4, #button5, #button6, #button7")) {
-      button4.style.backgroundColor = "";
-      button5.style.backgroundColor = "";
-      button6.style.backgroundColor = "";
-      button7.style.backgroundColor = "";
-
-      event.target.style.backgroundColor = "blue";
-    }
-});*/
 window.onload = function() {
   content.innerHTML = `
-  <div>
-    <div>
-      <div class="method">
-        <div class="method-Main">
-          <div class="method-Main-icon">
-            <img class="Main" src="picture/photo-sticker.jpg" alt="css-icon" width="50px" height="50px" style="margin: 5px">
-            <p>新莊程研社-7th</p>
-          </div>
-          <div class="method-Main-info">
+  <div class="method">
+    <div class="method-Main">
 
-            <div class="method-Main-info-left-div">
-              <div class="method-justify">
-
-                <div class="method-Main-info-div">
-                  <p class="method-Main-info-div2">Information</p>
-                </div>
-
-                <div class="method-Main-info-div">
-                  <div class="method-Main-info-div-text">
-                    <div class="method-Main-info-div-text-intro">
-                      <p class="method-Main-info-div-text-intro-style">Member</p>
-                    </div>
-                    <div style="display:grid;align-items: center;justify-content: center; letter-spacing: 3px;">
-                      <p class="method-Main-info-left1">社長 | 蕭建凱 |</p>
-                      <p class="method-Main-info-left1">副社 | 楊姿霖 |</p>
-                      <p class="method-Main-info-left1">教學 | 廖偉丞 |</p>
-                      <p class="method-Main-info-left1">總務 | 劉勁成 |</p>
-                      <p class="method-Main-info-left1">美宣 | 方子宸 |</p>
-                      <p class="method-Main-info-left1">文書 | 饒翊琦 |</p>
-                      <p class="method-Main-info-left1">公關 | 吳育全 |</p>
-                    </div>
-                  </div>
-                </div>
-
-              </div>
-            </div>
-
-
-            <div class="method-Main-info-right-div">
-              <div class="method-justify">
-
-                <div class="method-Main-info-div2" style="display: flex; justify-content: flex-start;">
-
-                  <div style="display:grid;">
-
-                    <div class="status">
-                      <div class="status-style-light">Status</div>
-                      <div class="status-style">Photos</div>
-                      <div class="status-style">Videos</div>
-                    </div>
-
-                    <div class="status-text-div">
-                      <img class="Main" src="picture/photo-sticker.jpg" alt="css-icon" width="30px" height="30px">
-                      <p class="status-text">Write something to hcpc_7th ...</p>
-                    </div>
-
-                    <div>
-                      <button class="share-button">Share</button>
-                    </div>
-
-                  </div>
-
-                </div>
-
-
-                <div class="method-Main-info-div2">
-                  
-
-                  <p class="method-Main-info-right1">
-                  無論你是否熟悉程式語言，如果你想成為一位程式高手，那麼現在就加入程研社吧！
-                  這個社群不僅能幫助你了解程式碼的世界，還有完整且有趣的程式課程，你能夠累積實力，實現自己的夢想。
-                  此外，這裡還有各路好手，他們能和你一起切磋，讓你的程式技能得到更大的提升。
-                  歡迎加入程研社，和我們一起成為程式高手吧！
-                  </p>
-
-                </div>
-
-                <div class="method-Main-info-div2">
-                  <p class="method-Main-info-right1">
-                  每次社課都會錄影，供想學習的同學觀看。即便你不是社員，我們也歡迎你跟我們一起討論程式設計。
-                  此外，課程資源會同步在YouTube，記得要去追蹤訂閱喔。
-                  </p>
-                </div>
-
-                <div class="method-Main-info-div3">
-                  Programming Language
-                </div>
-
-
-              </div>
-            </div>
-
-
-
-          </div>
-
-
-
-        </div>
+      <div class="method-Main-icon">
+        <img class="Main" src="picture/photo-sticker.jpg" alt="css-icon" width="50px" height="50px" style="margin: 5px;">
+        <h1 class="main-page-title" style="margin-left:10px;">新莊程研社-7th</h1>
       </div>
+      <div class="method-Main-info">
+
+        <div class="method-Main-info-left-div">
+          <div class="method-justify">
+
+            <div class="method-Main-info-div2">
+              <p style="font-family: 'Alkatra', cursive;text-align:center;margin:5px;font-weight: 10px;">Information</p>
+            </div>
+
+            <div class="method-Main-info-div">
+              <div class="method-Main-info-div-text">
+                <div class="method-Main-info-div-text-intro">
+                  <p class="method-Main-info-div-text-intro-style">Member</p>
+                </div>
+                <div style="display:grid;align-items: center;justify-content: center; letter-spacing: 3px;">
+                  <p class="method-Main-info-left1">社長 | 蕭建凱 |</p>
+                  <p class="method-Main-info-left1">副社 | 楊姿霖 |</p>
+                  <p class="method-Main-info-left1">教學 | 廖偉丞 |</p>
+                  <p class="method-Main-info-left1">總務 | 劉勁成 |</p>
+                  <p class="method-Main-info-left1">美宣 | 方子宸 |</p>
+                  <p class="method-Main-info-left1">文書 | 饒翊琦 |</p>
+                  <p class="method-Main-info-left1">公關 | 吳育全 |</p>
+                </div>
+              </div>
+            </div>
+
+            <div class="method-Main-info-div">
+              <div class="method-Main-info-div-text">
+
+                <div class="method-Main-info-div-text-intro">
+                  <p class="method-Main-info-div-text-intro-style" style="font-size: 5px;font-family: Montserrat;">Programming Language</p>
+                </div>
+                <div style="display:grid;align-items: center;justify-content: center; letter-spacing: 3px;">
+                  <img src="picture/java.png" alt="css-icon" width="140px" height="70px">
+                </div>
+
+              </div>
+            </div>
+            
+          </div>
+        </div>
+
+
+        <div class="method-Main-info-right-div">
+          <div class="method-justify">
+
+            <div class="method-Main-info-div2" style="display: flex; justify-content: flex-start;">
+
+              <div style="display:grid; margin:0;">
+
+                <div class="status">
+                  <div class="status-style-light">Status</div>
+                  <div class="status-style">Photos</div>
+                  <div class="status-style">Videos</div>
+                  <img style="margin-right: 1px "class="image-circle" src="picture/point.png" width="25px" height="27px" alt="list-icon">
+                </div>
+
+                <div class="method-Main-justify" style="display: grid;">
+
+                  <div class="status-text-div">
+                    <img class="Main" src="picture/photo-sticker.jpg" alt="css-icon" width="30px" height="30px">
+                    <p class="status-text">Write something to hcpc_7th ...</p>
+                  </div>
+                  <div>
+                    <button class="share-button">Send</button>
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+            <div class="method-Main-info-div2">
+
+              <div class="status">
+                <div class="status-style-light">Status</div>
+                <div class="status-style">Photos</div>
+                <div class="status-style">Videos</div>
+                <img style="margin-right: 5px"class="image-circle" src="picture/point.png" width="25px" height="27px" alt="list-icon">
+              </div>
+
+              <div class="method-Main-justify">
+                <img class="Main" src="picture/photo-sticker.jpg" alt="css-icon" width="30px" height="30px" style="margin-top:6px;margin-left:6px;">
+                <p class="method-Main-info-right1"style="text-align: justify;">
+                無論你是否熟悉程式語言，如果你想成為一位程式高手，那麼現在就加入程研社吧！這個社群不僅能幫助你了解程式碼的世界，還有完整且有趣的程式課程，你能夠累積實力，實現自己的夢想。此外，這裡還有各路好手，他們能和你一起切磋，讓你的程式技能得到更大的提升。歡迎加入程研社，和我們一起成為程式高手吧！
+                </p>
+              </div>
+              
+
+            </div>
+
+            <div class="method-Main-info-div2">
+
+              <div class="status">
+                <div class="status-style-light">Status</div>
+                <div class="status-style">Photos</div>
+                <div class="status-style">Videos</div>
+                <img style="margin-right: 5px"class="image-circle" src="picture/point.png" width="25px" height="27px" alt="list-icon">
+              </div>
+
+              <div class="method-Main-justify">
+                <img class="Main" src="picture/photo-sticker.jpg" alt="css-icon" width="30px" height="30px" style="margin-top:6px;margin-left:6px;">
+                <p class="method-Main-info-right1">
+                每次社課都會錄影，供想學習的同學觀看。即便你不是社員，我們也歡迎你跟我們一起討論程式設計。此外，課程資源會同步在YouTube，記得要去追蹤訂閱喔。
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+      </div>
+
     </div>
   </div>
   `;
@@ -136,30 +138,39 @@ window.onload = function() {
 
 button1.addEventListener("click", function() {
   content.innerHTML = `
-    <div class="card">
-      <div class="front">
-        <img src="picture/poster.png" width= 450px;/>
+    <div class="method">
+    
+      <div class="container">
+        <div class="box">
+            <span></span>
+            <div class="content">
+                <h2>第五次社團課</h2>
+                <p>主題 : 作品發表</p>
+                <p>日期 : 5月26日<p>
+            </div>
+        </div>
+        <div class="box">
+            <span></span>
+            <div class="content">
+                <h2>第六次社團課</h2>
+                <p>主題 : -</p>
+                <p>日期 : 6月9日</p>
+            </div>
+        </div>
+        <div class="box">
+            <span></span>
+            <div class="content">
+                <h2>社團特色USB抽獎</h2>
+                <p>大家可以踴躍參加喔</p>
+                <p>日期 : -月-日</p>
+            </div>
+        </div>
       </div>
-      <div class="back">
-        <p style="color: white">
-        我們非常高興宣布，我們的獨家大獎是一個USB！只要在我們的YouTube頻道訂閱，並在貼文下方@一位朋友，
-        您就有機會贏得這個大獎！不管您@多少人，每位參加者只有一次機會贏得獎品，所以勝出的機率均等。
-        我們將在2/22公佈得獎名單，所以請留意我們的海報和ig貼文！
-        如果您是贏家，請在三日內與我們用ig聯繫，以便領取獎品。
-        再次感謝您參加我們的活動，祝您好運！
-        </p>
-      </div>
+
     </div>
   `;
 });
-/*
-<div class="usb-picture">
-  <img src="picture/usb.jpg" width= 300px;/>
-</div>
-<div>
-  <p>USB抽獎</p>
-</div>
-*/
+
 button2.addEventListener("click", function() {
   content.innerHTML = `
   <div>
@@ -214,7 +225,7 @@ button2.addEventListener("click", function() {
 button3.addEventListener("click", function() {
   content.innerHTML = `
     <div class = "contact">
-      <h1>------------ 聯絡我們 ------------</h2>
+      <h1>---------- 聯絡我們 ----------</h2>
 
       <div class="contact-info">
         <div class="contact-div-shadow" style="margin-bottom: 5px; border: none; color: gray;">
@@ -237,21 +248,20 @@ button3.addEventListener("click", function() {
 
 button4.addEventListener("click", function() {
   content.innerHTML = `
-  <div>
-    <div>
       <div class="method">
         <div class="method-Main">
+
           <div class="method-Main-icon">
-            <img class="Main" src="picture/photo-sticker.jpg" alt="css-icon" width="50px" height="50px" style="margin: 5px">
-            <p>新莊程研社-7th</p>
+            <img class="Main" src="picture/photo-sticker.jpg" alt="css-icon" width="50px" height="50px" style="margin: 5px;">
+            <h1 class="main-page-title" style="margin-left:10px;">新莊程研社-7th</h1>
           </div>
           <div class="method-Main-info">
 
             <div class="method-Main-info-left-div">
               <div class="method-justify">
 
-                <div class="method-Main-info-div">
-                  <p class="method-Main-info-div2">Information</p>
+                <div class="method-Main-info-div2">
+                  <p style="font-family: 'Alkatra', cursive;text-align:center;margin:5px;font-weight: 10px;">Information</p>
                 </div>
 
                 <div class="method-Main-info-div">
@@ -271,6 +281,19 @@ button4.addEventListener("click", function() {
                   </div>
                 </div>
 
+                <div class="method-Main-info-div">
+                  <div class="method-Main-info-div-text">
+
+                    <div class="method-Main-info-div-text-intro">
+                      <p class="method-Main-info-div-text-intro-style" style="font-size: 5px;font-family: Montserrat;">Programming Language</p>
+                    </div>
+                    <div style="display:grid;align-items: center;justify-content: center; letter-spacing: 3px;">
+                      <img src="picture/java.png" alt="css-icon" width="140px" height="70px">
+                    </div>
+
+                  </div>
+                </div>
+                
               </div>
             </div>
 
@@ -280,21 +303,25 @@ button4.addEventListener("click", function() {
 
                 <div class="method-Main-info-div2" style="display: flex; justify-content: flex-start;">
 
-                  <div style="display:grid;">
+                  <div style="display:grid; margin:0;">
 
                     <div class="status">
                       <div class="status-style-light">Status</div>
                       <div class="status-style">Photos</div>
                       <div class="status-style">Videos</div>
+                      <img style="margin-right: 1px "class="image-circle" src="picture/point.png" width="25px" height="27px" alt="list-icon">
                     </div>
 
-                    <div class="status-text-div">
-                      <img class="Main" src="picture/photo-sticker.jpg" alt="css-icon" width="30px" height="30px">
-                      <p class="status-text">Write something to hcpc_7th ...</p>
-                    </div>
+                    <div class="method-Main-justify" style="display: grid;">
 
-                    <div>
-                      <button class="share-button">Share</button>
+                      <div class="status-text-div">
+                        <img class="Main" src="picture/photo-sticker.jpg" alt="css-icon" width="30px" height="30px">
+                        <p class="status-text">Write something to hcpc_7th ...</p>
+                      </div>
+                      <div>
+                        <button class="share-button">Send</button>
+                      </div>
+
                     </div>
 
                   </div>
@@ -303,72 +330,61 @@ button4.addEventListener("click", function() {
 
 
                 <div class="method-Main-info-div2">
-                  
 
-                  <p class="method-Main-info-right1">
-                  無論你是否熟悉程式語言，如果你想成為一位程式高手，那麼現在就加入程研社吧！
-                  這個社群不僅能幫助你了解程式碼的世界，還有完整且有趣的程式課程，你能夠累積實力，實現自己的夢想。
-                  此外，這裡還有各路好手，他們能和你一起切磋，讓你的程式技能得到更大的提升。
-                  歡迎加入程研社，和我們一起成為程式高手吧！
-                  </p>
+                  <div class="status">
+                    <div class="status-style-light">Status</div>
+                    <div class="status-style">Photos</div>
+                    <div class="status-style">Videos</div>
+                    <img style="margin-right: 5px"class="image-circle" src="picture/point.png" width="25px" height="27px" alt="list-icon">
+                  </div>
+
+                  <div class="method-Main-justify">
+                    <img class="Main" src="picture/photo-sticker.jpg" alt="css-icon" width="30px" height="30px" style="margin-top:6px;margin-left:6px;">
+                    <p class="method-Main-info-right1"style="text-align: justify;">
+                    無論你是否熟悉程式語言，如果你想成為一位程式高手，那麼現在就加入程研社吧！這個社群不僅能幫助你了解程式碼的世界，還有完整且有趣的程式課程，你能夠累積實力，實現自己的夢想。此外，這裡還有各路好手，他們能和你一起切磋，讓你的程式技能得到更大的提升。歡迎加入程研社，和我們一起成為程式高手吧！
+                    </p>
+                  </div>
+                  
 
                 </div>
 
                 <div class="method-Main-info-div2">
-                  <p class="method-Main-info-right1">
-                  每次社課都會錄影，供想學習的同學觀看。即便你不是社員，我們也歡迎你跟我們一起討論程式設計。
-                  此外，課程資源會同步在YouTube，記得要去追蹤訂閱喔。
-                  </p>
-                </div>
 
-                <div class="method-Main-info-div3">
-                  Programming Language
-                </div>
+                  <div class="status">
+                    <div class="status-style-light">Status</div>
+                    <div class="status-style">Photos</div>
+                    <div class="status-style">Videos</div>
+                    <img style="margin-right: 5px"class="image-circle" src="picture/point.png" width="25px" height="27px" alt="list-icon">
+                  </div>
 
+                  <div class="method-Main-justify">
+                    <img class="Main" src="picture/photo-sticker.jpg" alt="css-icon" width="30px" height="30px" style="margin-top:6px;margin-left:6px;">
+                    <p class="method-Main-info-right1">
+                    每次社課都會錄影，供想學習的同學觀看。即便你不是社員，我們也歡迎你跟我們一起討論程式設計。此外，課程資源會同步在YouTube，記得要去追蹤訂閱喔。
+                    </p>
+                  </div>
+                </div>
 
               </div>
             </div>
 
-
-
           </div>
-
-
 
         </div>
       </div>
-    </div>
-  </div>
   `;
 });
 
 button5.addEventListener("click", function() {
   content.innerHTML = `
-  <div>
-    <div>
-      <div class="method">
-        <div>
-          <p>Button 1 was clicked</p>
-          <p>Button 1 was clicked</p>
-          <p>Button 1 was clicked</p>
-          <p>Button 1 was clicked</p>
-          <p>Button 1 was clicked</p>
-          <p>Button 1 was clicked</p>
-          <p>Button 1 was clicked</p>
-          <p>Button 1 was clicked</p>
-          <p>Button 1 was clicked</p>
-          <p>Button 1 was clicked</p>
-          <p>Button 1 was clicked</p>
-          <p>Button 1 was clicked</p>
-          <p>Button 1 was clicked</p>
-          <p>Button 1 was clicked</p>
-          <p>Button 1 was clicked</p>
-          <p>Button 1 was clicked</p>
-          <p>Button 1 was clicked</p>
-        </div>
+    <div class="card">
+      <div class="front">
+        <img src="picture/poster1.png" width= 450px;/>
+      </div>
+      <div class="back">
+      <img src="picture/poster2.png" width= 450px;/>
       </div>
     </div>
-  </div>
   `;
 });
 
@@ -390,6 +406,8 @@ button6.addEventListener("click", function() {
   `;
 });
 
+
+/*
 button7.addEventListener("click", function() {
   content.innerHTML = `
     <div class="block3-right-box-monitor" style="background-color: green" >
@@ -397,4 +415,4 @@ button7.addEventListener("click", function() {
     </div>
   `;
 });
-
+*/

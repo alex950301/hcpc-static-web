@@ -4,9 +4,11 @@ const btn = document.querySelector("#button7");
 const openMouthImg = "picture/open.png";
 const closeMouthImg = "picture/close.png";
 
-const openMouthSound = new Audio("sound/open.mp3");
-const closeMouthSound = new Audio("sound/close.mp3");
-
+const openMouthSound = new Audio("sound/open.wav");
+//const closeMouthSound = new Audio("sound/close.mp3");
+/*JFrame fr = new JFrame("calculator");
+  fr.setBounds();
+*/
 btn.addEventListener("mousedown", openMouth);
 btn.addEventListener("mouseup", closeMouth);
 
@@ -27,7 +29,8 @@ function openMouth() {
 
 function closeMouth() {
     popcat.src = closeMouthImg;
-    closeMouthSound.play();
+    console.log('按钮被点击了');
+    //closeMouthSound.play();
 }
 
 /*
