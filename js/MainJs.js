@@ -31,6 +31,7 @@ window.onload = function() {
                   <p class="method-Main-info-div-text-intro-style">Member</p>
                 </div>
                 <div style="display:grid;align-items: center;justify-content: center; letter-spacing: 3px;">
+                  <p class="method-Main-info-left1">指導老師 廖勝雍</p>
                   <p class="method-Main-info-left1">社長 | 蕭建凱 |</p>
                   <p class="method-Main-info-left1">副社 | 楊姿霖 |</p>
                   <p class="method-Main-info-left1">教學 | 廖偉丞 |</p>
@@ -109,16 +110,6 @@ window.onload = function() {
 
             </div>
 
-            <div class="method-Main-info-div2">
-
-              <div class="status">
-                <div class="status-style-light">Status</div>
-                <div class="status-style">Photos</div>
-                <div class="status-style">Videos</div>
-                <img style="margin-right: 5px"class="image-circle" src="picture/point.png" width="25px" height="27px" alt="list-icon">
-              </div>
-              
-            </div>
 
           </div>
         </div>
@@ -146,18 +137,18 @@ button1.addEventListener("click", function() {
         <div class="box">
             <span></span>
             <div class="content">
-                <h2>第六次社團課</h2>
-                <p>主題 : 同樂會</p>
-                <p>日期 : 6月9日</p>
+                <h2>社團特色USB抽獎</h2>
+                <p>大家可以踴躍參加喔</p>
+                <p>日期 : 5月27 ~ 6月2日</p>
             </div>
         </div>
         <div class="box">
-            <span></span>
-            <div class="content">
-                <h2>社團特色USB抽獎</h2>
-                <p>大家可以踴躍參加喔</p>
-                <p>日期 : 5月27日 ~ 6月2日</p>
-            </div>
+          <span></span>
+          <div class="content">
+              <h2>第六次社團課</h2>
+              <p>主題 : 同樂會</p>
+              <p>日期 : 6月9日</p>
+          </div>
         </div>
       </div>
 
@@ -264,7 +255,7 @@ button4.addEventListener("click", function() {
                       <p class="method-Main-info-div-text-intro-style">Member</p>
                     </div>
                     <div style="display:grid;align-items: center;justify-content: center; letter-spacing: 3px;">
-                      <p>指導老師 : 廖勝雍</p>
+                      <p class="method-Main-info-left1">指導老師 廖勝雍</p>
                       <p class="method-Main-info-left1">社長 | 蕭建凱 |</p>
                       <p class="method-Main-info-left1">副社 | 楊姿霖 |</p>
                       <p class="method-Main-info-left1">教學 | 廖偉丞 |</p>
@@ -343,16 +334,6 @@ button4.addEventListener("click", function() {
 
                 </div>
 
-                <div class="method-Main-info-div2">
-
-                  <div class="status">
-                    <div class="status-style-light">Status</div>
-                    <div class="status-style">Photos</div>
-                    <div class="status-style">Videos</div>
-                    <img style="margin-right: 5px"class="image-circle" src="picture/point.png" width="25px" height="27px" alt="list-icon">
-                  </div>
-
-                </div>
 
               </div>
             </div>
