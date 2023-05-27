@@ -4,7 +4,7 @@ const btn = document.querySelector("#button7");
 const openMouthImg = "picture/open.png";
 const closeMouthImg = "picture/close.png";
 
-const openMouthSound = new Audio("sound/open.wav");
+const openMouthSound = new Audio("sound/open.");
 //const closeMouthSound = new Audio("sound/close.mp3");
 /*JFrame fr = new JFrame("calculator");
   fr.setBounds();
