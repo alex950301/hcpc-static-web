@@ -204,7 +204,7 @@ button2.addEventListener("click", function() {
               <p class="aboutUs-box-text">
                   新莊程研7th
               </p>
-              <a href="https://discord.gg/Wyfe9rCp" target="_blank">
+              <a href="https://discord.gg/JjXYPJ7fhJ" target="_blank">
                 <button class="aboutUs-button"><strong>LINK</strong></button>
               </a>
           </div>
@@ -264,6 +264,7 @@ button4.addEventListener("click", function() {
                       <p class="method-Main-info-div-text-intro-style">Member</p>
                     </div>
                     <div style="display:grid;align-items: center;justify-content: center; letter-spacing: 3px;">
+                      <p>指導老師 : 廖勝雍</p>
                       <p class="method-Main-info-left1">社長 | 蕭建凱 |</p>
                       <p class="method-Main-info-left1">副社 | 楊姿霖 |</p>
                       <p class="method-Main-info-left1">教學 | 廖偉丞 |</p>
@@ -351,12 +352,6 @@ button4.addEventListener("click", function() {
                     <img style="margin-right: 5px"class="image-circle" src="picture/point.png" width="25px" height="27px" alt="list-icon">
                   </div>
 
-                  <div class="method-Main-justify">
-                    <img class="Main" src="picture/photo-sticker.jpg" alt="css-icon" width="30px" height="30px" style="margin-top:6px;margin-left:6px;">
-                    <p class="method-Main-info-right1">
-                    每次社課都會錄影，供想學習的同學觀看。即便你不是社員，我們也歡迎你跟我們一起討論程式設計。此外，課程資源會同步在YouTube，記得要去追蹤訂閱喔。
-                    </p>
-                  </div>
                 </div>
 
               </div>
