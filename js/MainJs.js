@@ -117,13 +117,7 @@ window.onload = function() {
                 <div class="status-style">Videos</div>
                 <img style="margin-right: 5px"class="image-circle" src="picture/point.png" width="25px" height="27px" alt="list-icon">
               </div>
-
-              <div class="method-Main-justify">
-                <img class="Main" src="picture/photo-sticker.jpg" alt="css-icon" width="30px" height="30px" style="margin-top:6px;margin-left:6px;">
-                <p class="method-Main-info-right1">
-                每次社課都會錄影，供想學習的同學觀看。即便你不是社員，我們也歡迎你跟我們一起討論程式設計。此外，課程資源會同步在YouTube，記得要去追蹤訂閱喔。
-                </p>
-              </div>
+              
             </div>
 
           </div>
@@ -153,7 +147,7 @@ button1.addEventListener("click", function() {
             <span></span>
             <div class="content">
                 <h2>第六次社團課</h2>
-                <p>主題 : -</p>
+                <p>主題 : 同樂會</p>
                 <p>日期 : 6月9日</p>
             </div>
         </div>
@@ -162,7 +156,7 @@ button1.addEventListener("click", function() {
             <div class="content">
                 <h2>社團特色USB抽獎</h2>
                 <p>大家可以踴躍參加喔</p>
-                <p>日期 : -月-日</p>
+                <p>日期 : 5月27日 ~ 6月2日</p>
             </div>
         </div>
       </div>
