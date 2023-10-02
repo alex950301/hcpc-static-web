@@ -4,11 +4,9 @@ const btn = document.querySelector("#button7");
 const openMouthImg = "picture/open.png";
 const closeMouthImg = "picture/close.png";
 
-const openMouthSound = new Audio("sound/open.");
+const openMouthSound = new Audio("sound/open.mp3");
 //const closeMouthSound = new Audio("sound/close.mp3");
-/*JFrame fr = new JFrame("calculator");
-  fr.setBounds();
-*/
+
 btn.addEventListener("mousedown", openMouth);
 btn.addEventListener("mouseup", closeMouth);
 
