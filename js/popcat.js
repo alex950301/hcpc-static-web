@@ -5,7 +5,7 @@ const openMouthImg = "picture/open.png";
 const closeMouthImg = "picture/close.png";
 
 const openMouthSound = new Audio("sound/open.mp3");
-//const closeMouthSound = new Audio("sound/close.mp3");
+const closeMouthSound = new Audio("sound/close.mp3");
 
 btn.addEventListener("mousedown", openMouth);
 btn.addEventListener("mouseup", closeMouth);
