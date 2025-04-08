@@ -47,7 +47,7 @@ window.onload = function() {
               <div class="method-Main-info-div-text">
 
                 <div class="method-Main-info-div-text-intro">
-                  <p class="method-Main-info-div-text-intro-style" style="font-size: 5px;font-family: Montserrat;">Programming Language</p>
+                  <p class="method-Main-info-div-text-intro-style" style="font-size: 15px;font-family: Montserrat;">Programming Language</p>
                 </div>
                 <div style="display:grid;align-items: center;justify-content: center; letter-spacing: 3px;">
                   <img src="picture/java.png" alt="css-icon" width="140px" height="70px">
